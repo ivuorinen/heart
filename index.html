@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <title>Heart</title>
-    <style type="text/css" media="screen">
-        body { background: #00bc38; }
-        div#heart { background: #00bc38; width: 550px; height: 550px; position: fixed; top: 50%; left: 50%; margin-left: -275px; margin-top: -275px; }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <script src="heart.js" type="text/javascript" charset="utf-8"></script>
-    </head>
-<body id="" class="">
-    <div id="heart">
-		<svg version="1.1" baseProfile="basic" id="heartclip"
-			 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="550px" height="550px"
-			 viewBox="0 0 550 550" xml:space="preserve">
-			 <path fill-rule="evenodd" clip-rule="evenodd" fill="#00bc38" d="M0,0v550h550V0H0z M440.056,295.235
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+    <script src="heart.js"></script>
+</head>
+<body
+        data-color-start="#af0005"
+        data-color-bright="#ff0000"
+        data-color-dark="#900"
+        data-speed="7"
+>
+<div id="heart">
+    <svg version="1.1" baseProfile="basic" id="heartclip"
+         xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="550px" height="550px"
+         viewBox="0 0 550 550">
+			 <path fill-rule="evenodd" clip-rule="evenodd" d="M0,0v550h550V0H0z M440.056,295.235
 				c-43.869,45.664-90.965,89.964-138,137c-5.96,5.96-23.047,27.43-28,27c-3.294-0.286-23.537-24.537-27-28
 				c-46.46-46.46-91.788-88.938-137-136c-17.107-17.808-33.016-42.422-36-73c-4.884-50.054,18.489-88.068,46-108
 				c15.68-11.36,35.255-19.643,58-22c29.68-3.076,54.685,3.408,75,15c6.265,3.574,18.437,17,22,17c2.169,0,8.654-7.287,11-9
-				c4.178-3.052,8.881-6.791,11-8c79.511-45.369,172.125,9.163,179,88C479.929,239.645,462.388,271.989,440.056,295.235z"/>
+				c4.178-3.052,8.881-6.791,11-8c79.511-45.369,172.125,9.163,179,88C479.929,239.645,462.388,271.989,440.056,295.235z" />
 		</svg>
-	</div>
+</div>
 </body>
 </html>
